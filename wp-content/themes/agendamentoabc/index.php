@@ -290,7 +290,34 @@
   </div>
 </div>
 
-
+<div class="container mt-3 shadow p-3 rounded">
+    <div class="col">
+        <h4>Quantidade de consulta por psicologos</h4>
+            <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold">Douglas Guerra</div>
+                        <p>Programador NODEJS</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold">Wesley Cardoso</div>
+                        <p>Programador PHP</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold">Fulaninho</div>
+                        <p>Psicólogo especialista em terapia de casal</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+            </ol>
+    </div>
+</div>
 
 
 <?php get_footer(); ?>
