@@ -6,7 +6,7 @@
         
 <!-- //chart JS-----------------------------   -->
         <div>
-            <h1>48k </h1>
+            <h1>R$ 48,000 </h1>
         <canvas id="myChart"></canvas>
         </div>
 
@@ -40,7 +40,7 @@
     <div class="col-5 shadow p-3 rounded ms-2  "> 
 
         <div>
-        <h1>48k </h1>
+        <h1>16 consultas </h1>
         <canvas id="myChart1"></canvas>
         </div>
 
@@ -161,12 +161,135 @@
         <tr>
         
     </tbody>
-                <button class="btn btn-primary">Ver todos os registros</button>
+               
     </table>
+    <button class="btn btn-primary">Ver todos os registros</button>
     </div>
  
   </div>
 </div>
+
+<!-- //-------------------------------SESSION THREE------------------------------------ -->
+
+<div class="container text-center shadow p-3 rounded mt-3">
+        
+  <div class="row align-items-start">
+    <div class="col">
+            <h4 class="text-start">Consultas concluidas</h4>
+     
+        <div class="card w-100 mt-1" style="width: 18rem;">
+            <div class="card-body ">
+                <h5 class="card-title">Nome do paciente</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                <a href="#" class="card-link"><button class="btn btn-success">Card link</button></a>
+                <a href="#" class="card-link"><button class="btn btn-success">Ficha do paciente</button></a>
+            </div>
+        </div>
+
+        
+        <div class="card w-100 mt-1" style="width: 18rem;">
+            <div class="card-body ">
+                <h5 class="card-title">Nome do paciente</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                <a href="#" class="card-link"><button class="btn btn-success">Card link</button></a>
+                <a href="#" class="card-link"><button class="btn btn-success">Ficha do paciente</button></a>
+            </div>
+        </div>
+
+
+        
+        <div class="card w-100 mt-1" style="width: 18rem;">
+            <div class="card-body ">
+                <h5 class="card-title">Nome do paciente</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                <a href="#" class="card-link"><button class="btn btn-success">Card link</button></a>
+                <a href="#" class="card-link"><button class="btn btn-success">Ficha do paciente</button></a>
+            </div>
+        </div>
+        
+
+        
+
+    </div>
+    <div class="col">
+
+    <h4 class="text-start">Consultas em andamento</h4>
+           
+    <div class="card w-100 mt-1" style="width: 18rem;">
+            <div class="card-body ">
+                <h5 class="card-title">Nome do paciente</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                <a href="#" class="text-light"><button class="btn btn-warning text-light">Card link</button></a>
+                <a href="#" class="text-light"><button class="btn btn-warning text-light">Ficha do paciente</button></a>
+            </div>
+        </div> 
+
+        <div class="card w-100 mt-1" style="width: 18rem;">
+            <div class="card-body ">
+                <h5 class="card-title">Nome do paciente</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                <a href="#" class="text-light"><button class="btn btn-warning text-light">Card link</button></a>
+                <a href="#" class="text-light"><button class="btn btn-warning text-light">Ficha do paciente</button></a>
+            </div>
+        </div> 
+
+        <div class="card w-100 mt-1" style="width: 18rem;">
+            <div class="card-body ">
+                <h5 class="card-title">Nome do paciente</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                <a href="#" class="text-light"><button class="btn btn-warning text-light">Card link</button></a>
+                <a href="#" class="text-light"><button class="btn btn-warning text-light">Ficha do paciente</button></a>
+            </div>
+        </div> 
+
+    </div>
+
+    <div class="col">
+     
+    <h4 class="text-start">Consultas em canceladas</h4>
+           
+           <div class="card w-100 mt-1" style="width: 18rem;">
+                   <div class="card-body ">
+                       <h5 class="card-title">Nome do paciente</h5>
+                       <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                       <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                       <a href="#" class="text-light"><button class="btn btn-danger text-light">Card link</button></a>
+                       <a href="#" class="text-light"><button class="btn btn-danger text-light">Ficha do paciente</button></a>
+                   </div>
+               </div> 
+       
+               <div class="card w-100 mt-1" style="width: 18rem;">
+                   <div class="card-body ">
+                       <h5 class="card-title">Nome do paciente</h5>
+                       <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                       <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                       <a href="#" class="text-light"><button class="btn btn-danger text-light">Card link</button></a>
+                       <a href="#" class="text-light"><button class="btn btn-danger text-light">Ficha do paciente</button></a>
+                   </div>
+               </div> 
+       
+               <div class="card w-100 mt-1" style="width: 18rem;">
+                   <div class="card-body ">
+                       <h5 class="card-title">Nome do paciente</h5>
+                       <h6 class="card-subtitle mb-2 text-body-secondary">Psicólogo responsavel</h6>
+                       <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                       <a href="#" class="text-light"><button class="btn btn-danger text-light">Card link</button></a>
+                       <a href="#" class="text-light"><button class="btn btn-danger text-light">Ficha do paciente</button></a>
+                   </div>
+               </div>             
+
+
+    </div>
+
+  </div>
+</div>
+
 
 
 
