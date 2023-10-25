@@ -1,0 +1,173 @@
+<?php get_header(); ?>
+
+<div class="container align-items-center">
+  <div class="row align-items-center ">
+    <div class="col-5  shadow p-3 rounded">
+        
+<!-- //chart JS-----------------------------   -->
+        <div>
+            <h1>48k </h1>
+        <canvas id="myChart"></canvas>
+        </div>
+
+        <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: '# of Votes',
+                data: [12, 19, 3, 5, 2, 3],
+                borderWidth: 1
+            }]
+            },
+            options: {
+            scales: {
+                y: {
+                beginAtZero: true
+                }
+            }
+            }
+        });
+        </script>
+
+
+            </div>
+        
+
+    <div class="col-5 shadow p-3 rounded ms-2  "> 
+
+        <div>
+        <h1>48k </h1>
+        <canvas id="myChart1"></canvas>
+        </div>
+
+        <script>
+        const ctx1 = document.getElementById('myChart1');
+
+        new Chart(ctx1, {
+            type: 'line',
+            data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: '# of Votes',
+                data: [12, 19, 3, 5, 2, 3],
+                borderWidth: 1
+            }]
+            },
+            options: {
+            scales: {
+                y: {
+                beginAtZero: true
+                }
+            }
+            }
+        });
+        </script>
+
+
+    </div>
+ 
+<!-- !-- //End chart JS-----------------------------   --> 
+
+    <div class="col ms-2 shadow p-3 rounded "> 
+        <h4 class="text-dark mb-5">Atalhos</h4>
+
+        <div class="col mb-4">
+           <a href="https://api.whatsapp.com/send?phone=(21) 9 7491-0679&text=Olá, preciso de ajuda! " target="_blank" class="text-light text-decoration-none"><button class="btn btn-success w-100"><i class="bi bi-whatsapp"></i> Whatsapp</button></a>
+        </div>
+        <div class="col mb-4">
+            <a href="https://edithsistema.com.br/suporte-edith-sistema/" class="text-light text-decoration-none" target="_blank"><button class="btn btn-warning text-light w-100">Suporte <i class="bi bi-headset"></i></button></a>
+        </div>
+         <div class="col mb-4">
+            <a href="https://edithsistema.com.br/reporte/" class="text-light text-decoration-none"><button class="btn btn-danger w-100" >Reporte <i class="bi bi-exclamation-triangle"></i></button></a>
+        </div>
+        <div class="col mb-3">
+            <a href="https://mail.hostinger.com/?_task=logout&_token=7rj1ZQld1elVDa0095xkmmEtTues4Hwy" target="_blank" class=""><button class="btn btn-primary w-100" >Email <i class="bi bi-envelope"></i> </button></a>
+        </div>
+        </div>
+
+    </div> 
+
+  </div>
+</div>
+
+
+<div class="container text-center mt-4">
+  <div class="row align-items-start shadow p-3 rounded">
+    <div class="col">
+        <h4>Paciente registrados recentemente</h4>
+        <table class="table">
+    <thead>
+        <tr>
+        <th scope="col">Nº</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Sobrenome</th>
+        <th scope="col">Psicólogo</th>
+        <th scope="col">Data do atendimento</th>
+        <th scope="col">Estado</th>
+        <th scope="col">Resumo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row"><span class="bg-primary text-light rounded p-2">1</span></th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Mark</td>
+        <td><button class="btn btn-primary">Ver resumo</button></td>
+        
+        </tr>
+        <tr>
+        <th scope="row" ><span class="bg-primary text-light rounded p-2">2</span></th>
+                <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Mark</td>
+        <td><button class="btn btn-primary">Ver resumo</button></td>
+        </tr>
+        <tr>
+        <th scope="row"><span class="bg-primary text-light rounded p-2">3</span></th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Mark</td>
+        <td><button class="btn btn-primary">Ver resumo</button></td>
+        </tr>
+        <tr>
+        <th scope="row"><span class="bg-primary text-light rounded p-2">4</span></th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Mark</td>
+        <td><button class="btn btn-primary">Ver resumo</button></td>
+        </tr>
+        <tr>
+        <th scope="row"><span class="bg-primary text-light rounded p-2">5</span></th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Mark</td>
+        <td><button class="btn btn-primary">Ver resumo</button></td>
+        </tr>
+        <tr>
+        
+    </tbody>
+                <button class="btn btn-primary">Ver todos os registros</button>
+    </table>
+    </div>
+ 
+  </div>
+</div>
+
+
+
+<?php get_footer(); ?>
