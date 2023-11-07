@@ -79,7 +79,7 @@
            <a href="https://api.whatsapp.com/send?phone=(21) 9 7491-0679&text=Olá, preciso de ajuda! " target="_blank" class="text-light text-decoration-none"><button class="btn btn-success w-100"><i class="bi bi-whatsapp"></i> Whatsapp</button></a>
         </div>
         <div class="col mb-4">
-            <a href="https://edithsistema.com.br/suporte-edith-sistema/" class="text-light text-decoration-none" target="_blank"><button class="btn btn-warning text-light w-100">Suporte <i class="bi bi-headset"></i></button></a>
+            <a href="/form" class="text-light text-decoration-none" target="_blank"><button class="btn btn-warning text-light w-100">Suporte <i class="bi bi-headset"></i></button></a>
         </div>
          <div class="col mb-4">
             <a href="https://edithsistema.com.br/reporte/" class="text-light text-decoration-none"><button class="btn btn-danger w-100" >Reporte <i class="bi bi-exclamation-triangle"></i></button></a>
@@ -318,6 +318,9 @@
             </ol>
     </div>
 </div>
+
+
+
 
 
 <?php get_footer(); ?>
