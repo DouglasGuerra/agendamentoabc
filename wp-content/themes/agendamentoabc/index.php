@@ -2,6 +2,7 @@
 
 <?php require(get_template_directory(). '/nav-menu.php'); ?>
 
+
 <div class="container align-items-center">
   <div class="row align-items-center ">
     <div class="col-5  shadow p-2 rounded">
