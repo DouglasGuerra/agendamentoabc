@@ -25,9 +25,9 @@
         <td>@mdo</td>
         <td>Mark</td>
         <td>Mark</td>
-        <td><button class="btn btn-primary">Ver resumo</button></td>
-        <td><button class="btn btn-success">Editar</button></td>
-        <td><button class="btn btn-danger">Deletar</button></td>
+        <td><button class="btn btn-primary"><i class="bi bi-eye"></i> Ver resumo</button></td>
+        <td><button class="btn btn-success"><i class="bi bi-person-dash"></i> Editar</button></td>
+        <td><button class="btn btn-danger"><i class="bi bi-trash"></i> Deletar</button></td>
         
         
         </tr>
