@@ -2,7 +2,7 @@
 <div class="container border rounded shadow p-4 p-5 mt-5">
      <h1 class="text-dark fs-3">Agende sua consulta</h1>
      <marquee>Seja muito bem vindo meu amado paciente, como podemos te ajudar?</marquee>
-        <form class="row g-3">
+        <form class="row g-3" action="" method="post">
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Nome Completo</label>
             <input type="email" class="form-control" id="inputEmail4" required="required" name="name_patient">

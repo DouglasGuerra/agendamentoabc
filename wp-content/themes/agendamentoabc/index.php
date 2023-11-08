@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 
+<?php require(get_template_directory(). '/nav-menu.php'); ?>
+
 <div class="container align-items-center">
   <div class="row align-items-center ">
-    <div class="col-5  shadow p-3 rounded">
+    <div class="col-5  shadow p-2 rounded">
         
 <!-- //chart JS-----------------------------   -->
         <div>
@@ -20,7 +22,8 @@
             datasets: [{
                 label: '# of Votes',
                 data: [12, 19, 3, 5, 2, 3],
-                borderWidth: 1
+                borderWidth: 1,
+                backgroundColor:['#676E7F']
             }]
             },
             options: {
@@ -50,11 +53,12 @@
         new Chart(ctx1, {
             type: 'line',
             data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            labels: ['green', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
             datasets: [{
-                label: '# of Votes',
+                label: 'Consultas',
                 data: [12, 19, 3, 5, 2, 3],
-                borderWidth: 1
+                borderWidth: 1,
+                backgroundColor: ['#676E7F']
             }]
             },
             options: {
@@ -79,10 +83,10 @@
            <a href="https://api.whatsapp.com/send?phone=(21) 9 7491-0679&text=Olá, preciso de ajuda! " target="_blank" class="text-light text-decoration-none"><button class="btn btn-success w-100"><i class="bi bi-whatsapp"></i> Whatsapp</button></a>
         </div>
         <div class="col mb-4">
-            <a href="/form" class="text-light text-decoration-none" target="_blank"><button class="btn btn-warning text-light w-100">Suporte <i class="bi bi-headset"></i></button></a>
+            <a href="#" class="text-light text-decoration-none" target="_blank"><button class="btn btn-warning text-light w-100">Suporte <i class="bi bi-headset"></i></button></a>
         </div>
          <div class="col mb-4">
-            <a href="https://edithsistema.com.br/reporte/" class="text-light text-decoration-none"><button class="btn btn-danger w-100" >Reporte <i class="bi bi-exclamation-triangle"></i></button></a>
+            <a href="#" class="text-light text-decoration-none"><button class="btn btn-danger w-100" >Reporte <i class="bi bi-exclamation-triangle"></i></button></a>
         </div>
         <div class="col mb-3">
             <a href="https://mail.hostinger.com/?_task=logout&_token=7rj1ZQld1elVDa0095xkmmEtTues4Hwy" target="_blank" class=""><button class="btn btn-primary w-100" >Email <i class="bi bi-envelope"></i> </button></a>

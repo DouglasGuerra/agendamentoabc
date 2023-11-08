@@ -23,6 +23,7 @@ function abc_enqueues_scripts_and_styles ()
     /** JS PRINCIPAL - /assets/js/scripts.js **/
     wp_enqueue_script('abc_scripts', get_template_directory_uri() . '/assets/bootstrap/js/bootstrap.min.js', array('jquery'), null, true);
 
+    wp_enqueue_script('masked_script', get_template_directory_uri() . '/assets/js/masked.js', array(), null, true);
 }
 
 add_action('wp_enqueue_scripts', 'abc_enqueues_scripts_and_styles');
