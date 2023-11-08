@@ -1,6 +1,7 @@
 <!-- formulario paciente -->
 <div class="container border rounded shadow p-4 p-5 mt-5">
      <h1 class="text-dark fs-3">Agende sua consulta</h1>
+     <marquee>Seja muito bem vindo meu amado paciente, como podemos te ajudar?</marquee>
         <form class="row g-3">
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Nome Completo</label>
@@ -31,10 +32,19 @@
             <label for="inputAddress2" class="form-label">Whatsapp</label>
             <input type="tel" class="form-control" id="inputAddress2" required="required placeholder="Digite seu numero" name="number_patient">
         </div>
-        <div class="col-2">
-            <label for="inputAddress" class="form-label">Horário da consulta</label>
-            <select class="form-select" aria-label="Default select example" name="hour_patient" required="required>
-            <option disabled">Estado</option>
+            <div class="col-6">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Profissional</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            </select>
+        </div>    
+
+        <div class="col-6">
+        
+            <select class="form-select" aria-label="Default select example" name="hour_patient" required="required">
+            <option disabled selected>Qual o seu estado?</option>
             <option value="1">RJ</option>
             <option value="2">SP</option>
             <option value="2">ES</option>
@@ -44,6 +54,8 @@
             <option value="2">Outros</option>    
             </select>
 
+
+        </div>
         <div class="col-12 mt-3 ">
             <button type="submit" class="btn btn-primary">Agendar consulta</button>
         </div>

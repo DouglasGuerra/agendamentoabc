@@ -1,6 +1,7 @@
-<!-- formulario paciente -->
+<!-- formulario profissional -->
 <div class="container border rounded shadow p-4 p-5 mt-5">
      <h1 class="text-dark fs-3">Cadastro de profissinal</h1>
+     <marquee>Pode preencher com tranquilidade, todos os dados serão única e exclusivamente nosso!</marquee>
         <form class="row g-3">
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Nome Completo</label>
