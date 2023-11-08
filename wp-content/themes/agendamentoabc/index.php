@@ -5,7 +5,7 @@
 
 <div class="container align-items-center">
   <div class="row align-items-center ">
-    <div class="col-5  shadow p-2 rounded">
+    <div class="col-5  shadow p-3 rounded">
         
 <!-- //chart JS-----------------------------   -->
         <div>
