@@ -30,14 +30,15 @@
         </div>
         <div class="col-6">
             <label for="inputAddress2" class="form-label">Whatsapp</label>
-            <input type="tel" class="form-control" id="inputAddress2" required="required placeholder="Digite seu numero" name="number_patient">
+            <input type="tel" class="form-control" id="inputAddress2" required="required" placeholder="Digite seu numero" name="number_patient">
         </div>
             <div class="col-6">
         <select class="form-select" aria-label="Default select example">
             <option selected>Profissional</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+            <option value="1">Douglas</option>
+            <option value="2">Wesley</option>
+            <option value="3">Karol</option>
+            <option value="3">Erika</option>
             </select>
         </div>    
 

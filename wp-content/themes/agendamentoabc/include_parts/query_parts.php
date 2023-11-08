@@ -7,11 +7,14 @@
         <tr>
         <th scope="col">Nº</th>
         <th scope="col">Nome</th>
-        <th scope="col">Sobrenome</th>
-        <th scope="col">Psicólogo</th>
-        <th scope="col">Data do atendimento</th>
-        <th scope="col">Estado</th>
-        <th scope="col">Resumo</th>
+        <th scope="col">Email</th>
+        <th scope="col">CRP</th>
+        <th scope="col">Especialização</th>
+        <th scope="col">Demanda de prefêrencia</th>
+        <th scopoe="col">Acompanhamento</th>
+        <th scopoe="col">Editar</th>
+        <th scopoe="col">Deletar</th>
+        
         </tr>
     </thead>
     <tbody>
@@ -23,46 +26,12 @@
         <td>Mark</td>
         <td>Mark</td>
         <td><button class="btn btn-primary">Ver resumo</button></td>
+        <td><button class="btn btn-success">Editar</button></td>
+        <td><button class="btn btn-danger">Deletar</button></td>
+        
         
         </tr>
         <tr>
-        <th scope="row" ><span class="bg-primary text-light rounded p-2">2</span></th>
-                <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>Mark</td>
-        <td>Mark</td>
-        <td><button class="btn btn-primary">Ver resumo</button></td>
-        </tr>
-        <tr>
-        <th scope="row"><span class="bg-primary text-light rounded p-2">3</span></th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>Mark</td>
-        <td>Mark</td>
-        <td><button class="btn btn-primary">Ver resumo</button></td>
-        </tr>
-        <tr>
-        <th scope="row"><span class="bg-primary text-light rounded p-2">4</span></th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>Mark</td>
-        <td>Mark</td>
-        <td><button class="btn btn-primary">Ver resumo</button></td>
-        </tr>
-        <tr>
-        <th scope="row"><span class="bg-primary text-light rounded p-2">5</span></th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>Mark</td>
-        <td>Mark</td>
-        <td><button class="btn btn-primary">Ver resumo</button></td>
-        </tr>
-        <tr>
-        
     </tbody>
                
     </table>
